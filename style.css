@@ -80,4 +80,59 @@ li:hover {
     gap: 2vh;
     font-size: 20px;
 }
-  
+#section3 {
+    background-color: #87aa4b;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.servicos {
+    text-align: center;
+    width: 80%;
+}
+
+.servicos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.servicos p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.form-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-servicos label {
+    font-size: 18px;
+    text-align: left;
+}
+
+.form-servicos input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-servicos button {
+    padding: 15px;
+    font-size: 18px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 200ms linear;
+}
+
+.form-servicos button:hover {
+    background-color: darkgreen;
+}
