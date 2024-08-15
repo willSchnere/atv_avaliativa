@@ -136,3 +136,32 @@ li:hover {
 .form-servicos button:hover {
     background-color: darkgreen;
 }
+#section4{
+    background-color: #87aa4b;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section4-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section4-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-style-section4, 
+.img-style-section4-2, 
+.img-style-section4-3, 
+.img-style-section4-4 {
+    width: 150px;
+    height: 100px;
+    transition: linear 200ms all;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
